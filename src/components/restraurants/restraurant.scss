@@ -1,0 +1,39 @@
+@import './../../styles/colors';
+
+
+.restraurants {
+	.restraurant {
+		margin: 10px auto;
+		.card-img-top {
+			height: 300px;
+		}
+		.card-body {
+			.card-title {
+				color: $primary-color;
+			}
+			.details {
+				.adress, .phone-number {
+					margin-top: 10px;
+					display: flex;
+					svg {
+						width: 20px;
+						height: 20px;
+						margin-right: 5px;
+					}
+					.title {
+						font-size: 19px;
+						color: $font-secondary-color;
+						display: block;
+					}
+				}
+			}
+			.more-details {
+				float: right;
+			}
+			.price {
+				font-size: 20px;
+				color: $price-color;
+			}
+		}
+	}
+}

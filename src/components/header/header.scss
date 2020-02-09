@@ -1,0 +1,14 @@
+@import './../../styles/colors';
+
+.app-header {
+	&.navbar {
+		background-color: $primary-color;
+	}
+	.navbar-brand {
+		img {
+			border-radius: 30px;
+			border: 1px solid $font-primary-color;
+		}
+		color: $font-primary-color;
+	}
+}

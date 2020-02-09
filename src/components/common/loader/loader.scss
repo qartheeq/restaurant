@@ -1,0 +1,14 @@
+@import './../../../styles/colors';
+
+.loader {
+	margin: 10vh auto;
+	text-align: center;
+	font-zise: 30px;
+	.spinner-border {
+		width: 4rem;
+		height: 4rem;
+		&.text-primary {
+			color: $primary-color !important;
+		}
+	}
+}
